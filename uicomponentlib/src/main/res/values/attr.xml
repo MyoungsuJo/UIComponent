@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MSTextView">
+        <attr name="afterTextSize" format="reference|float"/>
+        <attr name="afterTextColor" format="reference|integer"/>
+        <attr name="afterTextStyle" format="reference|integer">
+            <enum name="bold" value="1"/>
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="InputType" format="reference|integer">
+            <enum name="decimal" value="1"/>
+            <enum name="caps" value="2"/>
+        </attr>
+        <attr name="removeSpace" format="reference|boolean"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="MSViewPager">
+        <!--<attr name="isInfinite" format="reference|boolean"/>-->
+        <attr name="autoScroll" format="reference|boolean"/>
+        <attr name="isShowPreview" format="reference|boolean"/>
+        <attr name="scrollInterval" format="reference|integer"/>
+        <attr name="padding" format="reference|integer"/>
+        <attr name="pageMargin" format="reference|integer"/>
+
+
+    </declare-styleable>
+</resources>
