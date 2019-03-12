@@ -44,6 +44,27 @@
 
 ### Usage
 
+
+
+#### Add to Project
+
+use Gradle:
+
+```gradle
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" } // add this line
+    }
+}
+
+dependencies {
+  implementation 'com.github.MyoungsuJo:UIComponent:0.0.1'
+}
+```
+    
+
 #### xml
 
     <com.msjo.uicomponentlib.MSViewPager
