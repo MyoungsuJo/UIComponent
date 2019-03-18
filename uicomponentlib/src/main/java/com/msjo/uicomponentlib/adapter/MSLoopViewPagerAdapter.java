@@ -13,7 +13,7 @@ public abstract class MSLoopViewPagerAdapter<T> extends PagerAdapter {
     protected abstract View inflateView(int viewType, ViewGroup container, int position);
     protected abstract void bindView(View convertView, int position, int viewType);
     protected int getItemViewType(int position) {
-        return 0;
+        return position;
     }
 
     protected List<T> itemList;
