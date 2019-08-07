@@ -60,7 +60,7 @@ allprojects {
 }
 
 dependencies {
-  implementation 'com.github.MyoungsuJo:UIComponent:0.0.1'
+  implementation 'com.github.MyoungsuJo:UIComponent:0.0.2'
 }
 ```
     
